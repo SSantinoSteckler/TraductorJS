@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Traductor JS</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="container__selectsContain">
+        <select class="selectOne"></select>
+        <button class="buttonIntercambio">
+          <i class="fas fa-exchange-alt"></i>
+        </button>
+        <select class="selectTwo"></select>
+      </div>
+      <div class="container__textAreaContain">
+        <div>
+          <textarea placeholder="Enter Text" class="textInitial"></textarea>
+          <button class="buttonVoice voiceInitial">
+            <i class="fas fa-volume-up"></i>
+          </button>
+        </div>
+        <div>
+          <textarea placeholder="Enter Text" class="textPost"></textarea>
+          <button class="buttonVoice">
+            <i class="fas fa-volume-up"></i>
+          </button>
+        </div>
+      </div>
+      <div class="container__translateContain">
+        <button class="translate">Translate</button>
+      </div>
+    </div>
+
+    <script src="./js/main.js" type="module"></script>
+  </body>
+</html>
